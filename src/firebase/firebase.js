@@ -4,13 +4,7 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const config = {
-  apiKey: "AIzaSyAK-kdWfvFUfOhjulYaDMFl2fiZwZeRP3Y",
-  authDomain: "image-gallery-1f3e1.firebaseapp.com",
-  projectId: "image-gallery-1f3e1",
-  storageBucket: "image-gallery-1f3e1.appspot.com",
-  messagingSenderId: "420990678169",
-  appId: "1:420990678169:web:bf9f207f60939200adf408",
-  measurementId: "G-7CV8HPVB49",
+ // your firebase configuration
 };
 
 if (!firebase.apps.length) {
