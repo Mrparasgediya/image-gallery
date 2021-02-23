@@ -1,2 +1,2 @@
 # Image Gallery
-[View Now!](www.google.com).
+[View App !](https://image-gallery-103.herokuapp.com/).
