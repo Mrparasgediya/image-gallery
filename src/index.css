@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #00af91;
+  --color-secondary: #fc5185;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiButtonBase-root {
+  text-transform: capitalize !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  color: white !important;
+  padding: 0.5rem 1rem !important;
+  background-color: var(--color-primary) !important;
+}
+
+.button--google {
+  background-color: #4285f4 !important;
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .MuiContainer-fixed {
+    max-width: 90% !important;
+  }
+}

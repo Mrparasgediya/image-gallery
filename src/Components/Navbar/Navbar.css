@@ -1,0 +1,9 @@
+.menu-icons {
+  margin-left: auto;
+  display: flex !important;
+  align-items: center;
+}
+
+.icon--white {
+  fill: #fff;
+}

@@ -1,0 +1,25 @@
+.profile {
+  margin-top: 2rem;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-header__img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.loader__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 2.5rem;
+  margin-bottom: 1.5rem;
+}

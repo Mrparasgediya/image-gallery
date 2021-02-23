@@ -1,0 +1,13 @@
+.progress {
+  width: min-content;
+  margin: 0 auto;
+  position: relative;
+}
+
+.uploading {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

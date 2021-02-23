@@ -1,0 +1,92 @@
+.image {
+  height: 350px !important;
+}
+
+.image__container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.image__content {
+  height: 25%;
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.image__img {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.owner-info {
+  cursor: pointer;
+  height: 80%;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.owner-info:active {
+  transform: scale(0.95);
+}
+
+.owner-info__name {
+  margin-left: 5px;
+}
+
+.like__container {
+  height: 80%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-left: auto;
+}
+.like__container:active {
+  transform: scale(0.95);
+}
+
+.like__icon {
+  fill: var(--color-secondary) !important;
+}
+
+.bg--glass {
+  background: rgba(250, 250, 250, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.bg--glass-red {
+  background: rgba(252, 81, 133, 0.25);
+  color: white;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  backdrop-filter: blur(50px);
+}

@@ -1,0 +1,13 @@
+.home {
+  margin-top: 2rem !important;
+}
+
+.loader__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 2.5rem;
+  margin-bottom: 1.5rem;
+}

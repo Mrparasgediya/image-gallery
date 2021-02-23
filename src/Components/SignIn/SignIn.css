@@ -1,0 +1,12 @@
+.sign-in {
+  padding: 5vh;
+  text-align: center;
+}
+
+.sing-in__buttons {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+}
